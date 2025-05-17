@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Your Restaurant - HappyHopper</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f8f9fa;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 400px;
+            width: 100%;
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.4;
+        }
+
+        .qr-code {
+            width: 200px;
+            height: 200px;
+            margin: 1.5rem auto;
+        }
+
+        .qr-code img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Claim your restaurant on HappyHopper and start reaching more customers today!</h1>
+        <div class="qr-code">
+            <img src="images/claim_qr.avif" alt="Scan to claim your restaurant">
+        </div>
+    </div>
+</body>
+</html>
